@@ -1,5 +1,5 @@
-# Don't Remove Credit Tg - @Tushar0125
-# Ask Doubt on telegram @Tushar0125
+# Don't Remove Credit Tg - @Ytac2
+# Ask Doubt on telegram @Ytac2
 
 import os
 import re
@@ -54,12 +54,12 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 5840594311 # Replace with the actual owner's user ID
+OWNER_ID = 5424499713 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [5840594311,7856557198,6303334633]
+SUDO_USERS = [5424499713]
 
-AUTH_CHANNEL = -1002572301679
+AUTH_CHANNEL = -1002656878420
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
@@ -67,9 +67,9 @@ def is_authorized(user_id: int) -> bool:
 
 bot = Client(
     "bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN)
+    api_id=24684505
+    api_hash=c4aade88dbad511f7cc60ee4b69970d1,
+    bot_token=7646492610:AAGbs5Q7z6dpoeckZCoOrIQl7Goa_X94mSI,)
 
 # Sudo command to add/remove sudo users
 @bot.on_message(filters.command("sudo"))
@@ -111,11 +111,11 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/Tushar0125") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/ShivVatikaNursery") ],
                     [
-                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/TxtToVideoUpdateChannel") ],
+                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/+WqTr1EuokYk2YmM1") ],
                     [
-                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/TxtToVideoUpdateChannel")                              
+                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/+WqTr1EuokYk2YmM1")                              
                 ],           
             ]
       )
@@ -528,9 +528,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[𝗧𝘂𝘀𝗵𝗮𝗿](https://t.me/Tushar0125)"
+    credit = "️[Manish](https://t.me/Ytac2)"
     if raw_text3 == '1':
-        CR = '[𝗧𝘂𝘀𝗵𝗮𝗿](https://t.me/Tushar0125)'
+        CR = '[Manish](https://t.me/Ytac2)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
